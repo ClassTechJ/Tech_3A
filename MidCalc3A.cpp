@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-  Int op, // variable (cajas) que almacena la eleccion de operacion 1 = sumar, 2 = restar.
+  int op; // variable (cajas) que almacena la eleccion de operacion 1 = sumar, 2 = restar.
   double N1, N2; // Variables (cajas) donde se guardaran los numeros que el usuario ingrese por teclado.   
   double Suma, Resta; // variables (cajas) donde se guardaran los resultados de las operaciones.
   cout << "Bienvenido a tu calculadora" << endl;
@@ -20,7 +20,7 @@ int main(){
     Suma = N1 + N2;
     cout << "La sumatoria es igual a: " << Suma << endl;
   } else if (op==2) {
-    Rsta = N1 - N2;
+    Resta = N1 - N2;
     cout << "La resta es igual a: " << Resta << endl;
   } else {
      cout << "Lo sentimos la operación solicitada no existe." << endl;
