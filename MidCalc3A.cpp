@@ -22,6 +22,8 @@ int main(){
   } else if (op==2) {
     Rsta = N1 - N2;
     cout << "La resta es igual a: " << Resta << endl;
+  } else {
+     cout << "Lo sentimos la operación solicitada no existe." << endl;
   }
   return 0;
 }
