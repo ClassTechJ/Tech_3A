@@ -39,6 +39,6 @@ int main(){
     } else {
         cout << "No existe ninguna operacion relacionada a ese numero" <<endl;
     }
-    system("pause");
+    //system("pause"); // borrar estos dos simbolos (//) antes de system si van a ejecutar el codigo en Visual Studio Code.
     return 0;
 }
